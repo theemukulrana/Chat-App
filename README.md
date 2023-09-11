@@ -14,7 +14,6 @@ Chatify is a real-time chat application built with modern web technologies, incl
 
 - **Sleek UI:** Enjoy an intuitive user interface designed with Chakra UI, offering a modern and visually appealing chat experience.
 
-## Getting Started
 
 ### Prerequisites
 
@@ -23,41 +22,6 @@ Before running Chatify, make sure you have the following installed:
 - [Node.js](https://nodejs.org/)
 - [MongoDB](https://www.mongodb.com/)
 
-### Installation
-
-
-shell
-Copy code
-cd chatify
-Install server dependencies:
-
-shell
-Copy code
-cd server
-npm install
-Install client dependencies:
-
-shell
-Copy code
-cd ../client
-npm install
-Configuration
-Create a .env file in the server directory and configure the following environment variables:
-
-makefile
-Copy code
-MONGODB_URI=your_mongodb_connection_string
-SECRET_KEY=your_secret_key_for_jwt
-Update the client-side configuration if needed (e.g., API endpoint URLs) in the client codebase.
-
-Usage
-Start the server:
-
-shell
-Copy code
-cd ../server
-npm start
-Start the client:
 
 shell
 Copy code
