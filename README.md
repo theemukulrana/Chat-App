@@ -22,9 +22,3 @@ Before running Chatify, make sure you have the following installed:
 - [Node.js](https://nodejs.org/)
 - [MongoDB](https://www.mongodb.com/)
 
-
-shell
-Copy code
-cd ../client
-npm start
-Access Chatify in your web browser at http://localhost:3000.
